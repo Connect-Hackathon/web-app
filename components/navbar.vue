@@ -2,7 +2,7 @@
     <nav id="navbar" class="navbar navbar-expand-md navbar-light shadow-sm">
         <div class="container">
             <a class="navbar-brand" href="#">
-                <img src="~/assets/images/icon.png" style="height: 40px; width: auto;"
+                <img src="~/assets/images/connect_5.jpg" style="height: 40px; width: auto;"
                     class="d-inline-block align-text-center">
                 Connect 5 CV Screening
             </a>
