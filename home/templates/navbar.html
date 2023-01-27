@@ -1,0 +1,23 @@
+{% load static %}
+<nav id="navbar" class="navbar navbar-expand-md navbar-light shadow-sm mw-100">
+  <div class="container">
+    <a class="navbar-brand" href="/">
+      <img
+        src="{% static 'images/icon.png' %}"
+        style="height: 40px; width: auto"
+        class="d-inline-block align-text-center"
+      />
+      Swansea Uni Badminton Society
+    </a>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a style="margin-right: 10px" href="/" class="btn btn-secondary text-card-bg"
+            >Home</a
+          >
+          <a href="/admin" class="btn btn-primary text-card-bg">Admin Page</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

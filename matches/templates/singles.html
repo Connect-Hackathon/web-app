@@ -1,0 +1,68 @@
+{% extends 'base.html' %} {% block title %}Home{% endblock %}
+{% load crispy_forms_tags %}
+{% block content %}
+<h1 class="h1 text-white text-center">Welcome to Badminton Society charity event!</h1>
+<p class="text-center text-white">Please fill out the form below to enter</p>
+<div id="form-internal-container">
+
+  <form method="post" action="{% url 'singles' %}">
+    {% csrf_token %}
+    <h1 class="text-white">Your Information</h1>
+    <div class="row form-group">
+      <div id="col" class="column">
+        {{ form.first_name|as_crispy_field }}
+      </div>
+      <div id="col" class="column">
+        {{ form.last_name|as_crispy_field }}
+      </div>
+    </div>
+    <div class="row form-group">
+      <div id="col" class="column">
+        {{ form.gender|as_crispy_field }}
+      </div>
+      <div id="col" class="column">
+        {{ form.student_number|as_crispy_field }}
+      </div>
+    </div>
+    <h2 class="text-white">Your Contact Information</h2>
+    <div class="row form-group">
+      <div id="col" class="column">
+        {{ form.email_address|as_crispy_field }}
+      </div>
+      <div id="col" class="column">
+        {{ form.phone_number|as_crispy_field }}
+      </div>
+    </div>
+    <div class="alert alert-danger fade show" role="alert">
+      <i class="bi bi-exclamation-triangle-fill"></i>
+      <b> Before you choose your skill level</b>
+      <p>Make sure you choose the correct level, and be sure that you match the following criteria
+        before
+        submitting. Otherwise you may not be able to play on the day</p>
+      <ui>
+        <li>
+          <b>Level A:</b> High Performance : Category only for University and Club 1st and 2nd
+          team,
+          Members with Badminton Wales/England ranking and grading above G
+        </li>
+        <li>
+          <b>Level B:</b> Competitive : Excluding players above grade H
+        </li>
+        <li>
+          <b>Level C:</b> Beginners and Intramural Players
+        </li>
+      </ui>
+    </div>
+
+    <div>
+      {{ form.skill_level|as_crispy_field }}
+    </div>
+
+
+    <input type="hidden" name="matchname" value="sm">
+    <button type="submit" class="btn btn-success"> submit </button>
+
+  </form>
+
+</div>
+{% endblock %}
