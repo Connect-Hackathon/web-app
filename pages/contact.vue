@@ -12,14 +12,6 @@
 </template>
 
 <script setup>
-import formres from '../../server/assets/formres.json'
-const auth = useAuth();
-if(auth.value.isAuthenticated === false){
-    navigateTo('/login')
-}
-const {data: peeps} = useFetch('/api/data')
-
-
 
 
 </script>
