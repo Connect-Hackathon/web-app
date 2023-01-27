@@ -1,0 +1,95 @@
+{% extends 'base.html' %} {% block title %}Home{% endblock %}
+{% load static %}
+{% block content %}
+<h1 class="h1 text-white text-center">Welcome to Badminton Society charity event!</h1>
+<div style="display: flex; align-items: center; justify-content: center; margin: 10px;">
+    <img src="{% static 'images/logo.png' %}" id="logo" style="width: 175px; height: 175px;">
+</div>
+<p class="text-center text-white">Some info about the event</p>
+<p class="text-center text-white">Please select the type of match you wish to sign up for</p>
+<div id="form-internal-container-no-bg">
+    <div class="container-fluid mb-4">
+        <div class="card-group">
+            <div class="col-mt-4">
+                <div class="shadow-lg p-2 card bg-light mx-auto" style="width: 18rem; margin-right: 15px !important; margin-top: 15px !important;">
+                    <div class="text-center">
+                        <img src="{% static 'images/match_pictures/singles.png' %}" width="200">
+                    </div>
+                    <div class="product-details">
+                        <span class="font-weight-bold d-block">£ 17.00</span>
+                        <span>Singles Match</span>
+                        <div class="buttons d-flex flex-row">
+                            
+                            </a>
+                        </div>
+                        <div class="weight">
+                            <small>1v1 any other player that signs up for another singles match</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-mt-4">
+                <div class="shadow-lg p-2 card bg-light mx-auto" style="width: 18rem; margin-right: 15px !important; margin-top: 15px !important;">
+                    <div class="text-center">
+                        <img src="{% static 'images/match_pictures/mixeddoubles.png' %}" width="200">
+                    </div>
+                    <div class="product-details">
+                        <span class="font-weight-bold d-block">£ 30.00</span>
+                        <span>Mixed Doubles Match</span>
+                        <div class="buttons d-flex flex-row">
+                            
+                            </a>
+                        </div>
+                        <div class="weight">
+                            <small>Standard doubles match, but with mixed genders on each team</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-mt-4">
+                <div class="shadow-lg p-2 card bg-light mx-auto" style="width: 18rem; margin-right: 15px !important; margin-top: 15px !important;">
+                    <div class="text-center">
+                        <img src="{% static 'images/match_pictures/doubles.png' %}" width="200">
+                    </div>
+                    <div class="product-details">
+                        <span class="font-weight-bold d-block">£ 30.00</span>
+                        <span>Doubles Match</span>
+                        <div class="buttons d-flex flex-row">
+                           
+                            </a>
+                        </div>
+                        <div class="weight">
+                            <small>Standard doubles match, each team member on a team is the same gender</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="col-mt-4">
+                <div class="shadow-lg p-2 card bg-light mx-auto" style="width: 18rem; margin-right: 15px !important; margin-top: 15px !important;">
+                    <div class="text-center">
+                        <img src="{% static 'images/match_pictures/doublesnp.png' %}" width="200">
+                    </div>
+                    <div class="product-details">
+                        <span class="font-weight-bold d-block">£ 15.00</span>
+                        <span>Doubles Match With No Partner</span>
+                        <div class="buttons d-flex flex-row">
+                           
+                            </a>
+                        </div>
+                        <div class="weight">
+                            <small>Want to play a doubles match, but have no one to play with? This match is for
+                                you</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+{% endblock %}
