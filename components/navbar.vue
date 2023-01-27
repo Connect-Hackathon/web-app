@@ -29,7 +29,7 @@
                         <NuxtLink style="margin-right: 10px;" class="btn btn-secondary text-card-bg" to="/">Home</NuxtLink>
                         <NuxtLink style="margin-right: 10px;" class="btn btn-secondary text-card-bg" to="/about">About</NuxtLink>
                         <NuxtLink style="margin-right: 10px;" class="btn btn-secondary text-card-bg" to="/contact">Contact</NuxtLink>
-                       <NuxtLink class="btn btn-primary text-card-bg" to="/admin">Admin Page</NuxtLink>
+                       <NuxtLink class="btn btn-primary text-card-bg" to="/admin">Login</NuxtLink>
                        <NuxtLink v-if="auth.isAuthenticated===true"  style="margin-left: 10px;" class="btn btn-primary text-card-bg" to="/" @click.prevent="logout">Logout</NuxtLink>
 
                     </li>
