@@ -4,7 +4,7 @@
             <a class="navbar-brand" href="#">
                 <img src="~/assets/images/icon.png" style="height: 40px; width: auto;"
                     class="d-inline-block align-text-center">
-                Swansea Uni Badminton Society
+                Connect 5 CV Screening
             </a>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
