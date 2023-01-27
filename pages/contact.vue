@@ -3,7 +3,7 @@
         <h1>How to contact us...</h1>
         <div class="container row-1">
             <br>
-            <div>
+            <div id="form-internal-container">
                 <h3>Telephone</h3>
                 <p>To contact us via telephone, please contact 0800 123 8911. Please be advised that our opening hours are 9am - 6pm Monday to Friday
                     and from 10am - 3pm on weekends. Phone calls are recorded for protection.
