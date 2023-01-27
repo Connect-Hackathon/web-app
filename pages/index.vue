@@ -1,9 +1,9 @@
 <template>
     <div>
         <h1 class="h1 text-white text-center">Welcome to Connect 5's CV Screening service</h1>
-        <p class="text-center text-white">Please fill out the form below to enter</p>
+       
         <div id="form-internal-container">
-            
+        <p class="text-center text-white">We are a Software comapny with who hope to make a more inclusive tool for CV screening</p>
         </div>
 
     </div>

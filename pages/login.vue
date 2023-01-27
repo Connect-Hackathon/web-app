@@ -1,8 +1,9 @@
 <template>
-    <div>
+    <div class="text-white text-center">
         <h1>Login to admin</h1>
     <span v-if="_error" class="alert alert-danger">{{_error}}</span>
     <form @submit.prevent="deetcheck">
+
         <input class="form-control width: 120px" v-model="form.username" type="text" placeholder="Username"><br>
         <input class="form-control width: 120px" v-model="form.password" type="password" placeholder="Password"><br>
         <button class="btn btn-primary" type="submit">Login</button>
