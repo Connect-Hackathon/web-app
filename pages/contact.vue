@@ -1,5 +1,6 @@
 <template>
     <div>
+        <br>
         <h1>How to contact us...</h1>
         <div class="container row-1">
             <br>
