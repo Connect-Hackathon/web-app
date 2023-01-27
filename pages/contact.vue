@@ -4,6 +4,7 @@
         <div class="container row-1">
             <br>
             <div id="form-internal-container">
+                <div class="text-center text-white">
                 <h3>Telephone</h3>
                 <p>To contact us via telephone, please contact 0800 123 8911. Please be advised that our opening hours are 9am - 6pm Monday to Friday
                     and from 10am - 3pm on weekends. Phone calls are recorded for protection.
@@ -16,6 +17,7 @@
                     <li>Date of occured problem</li>
                     <li>Reference number of issue (if applicable)</li>
                 </ul>
+                </div>
             </div>
             
         </div>
